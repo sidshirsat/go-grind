@@ -28,3 +28,13 @@ func isValid(s string) bool {
 	// If the stack is empty, all brackets matched correctly
 	return len(stack) == 0
 }
+
+/* func main() {
+	// Test cases
+	fmt.Println(isValid("()"))     // true
+	fmt.Println(isValid("()[]{}")) // true
+	fmt.Println(isValid("(]"))     // false
+	fmt.Println(isValid("([)]"))   // false
+	fmt.Println(isValid("{[]}"))   // true
+}
+*/

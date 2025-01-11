@@ -21,3 +21,13 @@ func twoSum(nums []int, target int) []int {
 	// Return empty slice if no solution is found (shouldn't happen as per the problem guarantee)
 	return nil
 }
+
+/* func main() {
+	nums := []int{2, 7, 11, 15}
+	target := 9
+	// Solve using twoSum
+	result := twoSum(nums, target)
+	// Print the result
+	fmt.Printf("Indices: %v\n", result) // Expected Output: [0, 1]
+}
+*/
