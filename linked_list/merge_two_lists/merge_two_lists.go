@@ -1,3 +1,5 @@
+// https://leetcode.com/problems/merge-two-sorted-lists/
+
 package main
 
 import "fmt"
@@ -60,7 +62,6 @@ func printLinkedList(head *ListNode) {
 	fmt.Println("nil")
 }
 
-/*
 func main() {
 	// Create test cases
 	list1 := createLinkedList([]int{1, 2, 4})
@@ -72,4 +73,3 @@ func main() {
 	// Print the result
 	printLinkedList(mergedList)
 }
-*/

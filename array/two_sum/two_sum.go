@@ -1,8 +1,8 @@
-/*
-https://leetcode.com/problems/two-sum/
-*/
+// https://leetcode.com/problems/two-sum/
 
 package main
+
+import "fmt"
 
 // twoSum solves the Two Sum problem using a hashmap for O(n) efficiency.
 func twoSum(nums []int, target int) []int {
@@ -22,7 +22,7 @@ func twoSum(nums []int, target int) []int {
 	return nil
 }
 
-/* func main() {
+func main() {
 	nums := []int{2, 7, 11, 15}
 	target := 9
 	// Solve using twoSum
@@ -30,4 +30,3 @@ func twoSum(nums []int, target int) []int {
 	// Print the result
 	fmt.Printf("Indices: %v\n", result) // Expected Output: [0, 1]
 }
-*/

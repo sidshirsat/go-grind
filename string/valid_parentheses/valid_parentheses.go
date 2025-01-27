@@ -1,4 +1,8 @@
+// https://leetcode.com/problems/valid-parentheses
+
 package main
+
+import "fmt"
 
 func isValid(s string) bool {
 	// Stack to keep track of open parentheses
@@ -29,7 +33,7 @@ func isValid(s string) bool {
 	return len(stack) == 0
 }
 
-/* func main() {
+func main() {
 	// Test cases
 	fmt.Println(isValid("()"))     // true
 	fmt.Println(isValid("()[]{}")) // true
@@ -37,4 +41,3 @@ func isValid(s string) bool {
 	fmt.Println(isValid("([)]"))   // false
 	fmt.Println(isValid("{[]}"))   // true
 }
-*/
